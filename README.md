@@ -2,7 +2,7 @@
 This is a <a href="https://threejs.org/">Three.js</a> boilerplate starter.
 
 ## Installation
-Make sure you have have <a href="https://nodejs.org/en/">Node.js</a> installed. <br>
+Make sure you have <a href="https://nodejs.org/en/">Node.js</a> installed. <br>
 Run npm i to install all dependencies.
 
 ### Usage
