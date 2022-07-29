@@ -1,5 +1,5 @@
 # About
-This is a Three.js boilerplate starter.
+This is a <a href="https://threejs.org/">Three.js</a> boilerplate starter.
 
 ## Installation
 Run npm i to install all dependencies.
