@@ -1,7 +1,7 @@
 import {
     PlaneBufferGeometry,
     Mesh,
-    MeshStandardMaterial,
+    MeshBasicMaterial,
     DoubleSide,
 } from 'three';
 
@@ -12,12 +12,12 @@ import {
 
 function plane(scene) {
     if(!scene) {
-        throw new Error(`Please add the scene parameter to the plane when using it`);
+        throw new Error(`Please add the scene parameter to the plane when using`);
     } else {
         const geometry = new PlaneBufferGeometry(1, 1, 32, 32);
 
-        const material = new MeshStandardMaterial({
-            color: 0xFFFFFF,
+        const material = new MeshBasicMaterial({
+            color: 0xD88F03,
             side: DoubleSide,
         });
     

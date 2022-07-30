@@ -50,7 +50,7 @@ const webGL = (canvas) => {
     });
     renderer.setSize(sizes.width, sizes.height);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    renderer.setClearColor(0x000000, 1.0);
+    renderer.setClearColor(0x3F3F3F, 1.0);
 
     /**
      * Handling resizing
