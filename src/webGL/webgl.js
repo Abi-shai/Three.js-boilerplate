@@ -12,13 +12,10 @@ import { checkIfDebug } from './utils';
 import plane from './plane';
 
 /**
+ * WebGl related implementations
  * @param {Element} canvas - Dom element to add webGl experience
  */
 
-
-/**
- * WebGl related implementations
- */
 const webGL = (canvas) => {
     const scene = new Scene();
 

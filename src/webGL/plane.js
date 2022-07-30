@@ -6,7 +6,8 @@ import {
 } from 'three';
 
 /**
- * @param {Object} scene - Scene created with three.js
+ * Plane related implementations
+ * @param {Object} scene - Add Scene object created in three.js
  */
 
 function plane(scene) {
