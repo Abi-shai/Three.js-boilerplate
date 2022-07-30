@@ -92,7 +92,7 @@ const webGL = (canvas) => {
         window.requestAnimationFrame(tick);
     }
 
-    plane();
+    plane(scene);
     checkIfDebug();
     tick();
 };

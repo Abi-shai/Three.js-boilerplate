@@ -11,15 +11,19 @@ import {
  */
 
 function plane(scene) {
-    const geometry = new PlaneBufferGeometry(1, 1, 32, 32);
+    if(!scene) {
+        throw new Error(`Please add the scene parameter to the plane when using it`);
+    } else {
+        const geometry = new PlaneBufferGeometry(1, 1, 32, 32);
 
-    const material = new MeshStandardMaterial({
-        color: 0xFFFFFF,
-        side: DoubleSide,
-    });
-
-    const planeMesh = new Mesh(geometry, material);
-    scene.add(planeMesh);
+        const material = new MeshStandardMaterial({
+            color: 0xFFFFFF,
+            side: DoubleSide,
+        });
+    
+        const planeMesh = new Mesh(geometry, material);
+        scene.add(planeMesh);
+    };
 };
 
 export default plane;
