@@ -17,7 +17,7 @@ import plane from './plane';
 
 
 /**
- * Setting all webGl related implementations
+ * WebGl related implementations
  */
 const webGL = (canvas) => {
     const scene = new Scene();

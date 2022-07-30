@@ -19,6 +19,6 @@ function plane(scene) {
 
     const planeMesh = new Mesh(geometry, material);
     scene.add(planeMesh);
-}
+};
 
 export default plane;
