@@ -13,7 +13,7 @@ import plane from './plane';
 
 /**
  * WebGl related implementations
- * @param {Element} canvas - Dom element to add webGl experience
+ * @param {Element} canvas - Canvas html element to add webGl experience
  */
 
 const webGL = (canvas) => {
