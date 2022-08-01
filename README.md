@@ -1,5 +1,5 @@
 # About
-This is a <a href="https://threejs.org/">Three.js</a> boilerplate starter.
+This is a <a href="https://threejs.org/">Three.js</a> boilerplate.
 
 ## Installation
 Make sure you have <a href="https://nodejs.org/en/">Node.js</a> installed. <br>
