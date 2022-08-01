@@ -37,8 +37,8 @@ const webGL = (canvas) => {
     /**
      * Setting up controls
      */
-    const controls = new OrbitControls(camera, canvas)
-    controls.enableDamping = true
+    const controls = new OrbitControls(camera, canvas);
+    controls.enableDamping = true;
 
 
     /**
@@ -68,7 +68,7 @@ const webGL = (canvas) => {
         // Update renderer
         renderer.setSize(sizes.width, sizes.height)
         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
-    })
+    });
 
     /**
      * Animation on each frame
@@ -90,7 +90,7 @@ const webGL = (canvas) => {
 
         // Call tick again on the next frame
         window.requestAnimationFrame(tick);
-    }
+    };
 
     plane(scene);
     checkIfDebug();
