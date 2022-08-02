@@ -22,7 +22,9 @@ function plane(scene) {
         });
     
         const planeMesh = new Mesh(geometry, material);
-        scene.add(planeMesh);
+        const addedToMesh = scene.add(planeMesh);
+
+        return addedToMesh;
     };
 };
 

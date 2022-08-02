@@ -24,7 +24,7 @@ const webGL = (canvas) => {
      */
     const sizes = {
         width: window.innerWidth,
-        height: window.innerHeight
+        height: window.innerHeight,
     };
 
     /**
@@ -97,7 +97,7 @@ const webGL = (canvas) => {
     tick();
 };
 
-
 export default webGL;
+
 
 
